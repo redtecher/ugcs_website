@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>无人机地面站软件UgCS</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <div id="Layer1" style="position:absolute; width:100%; height:100%; z-index:-1">    
+  </div>
+  <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">首页 <span class="sr-only">(current)</span></a></li>
+        <li><a href="WhyUgCS.html">为何选用UgCS</a></li>
+        <li><a href="purchase_cn.html">UgCS购买</a></li>
+        <li><a href="ddc_cn.html">无人机编队表演</a></li>
+        <li><a href="sdk_cn.html">SDK二次开发</a></li>
+        <li><a href="dowload_cn.html">资料下载</a></li>
+        <li><a href="demo.html">视频演示</a></li>
+      </ul>
+    <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">提交</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="connectus_cn.html">联系我们</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Language <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="purchase_en.html">English</a></li>
+            <li><a href="purchase_cn.html">Chinese</a></li>
+            
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+ <div class="container">
+  <div class="jumbotron">
+  
+    <div class=".container">
+      <div class="page-header">
+      <h1>UgCS 证书类型   <small>特点与价格比较 </small></h1>
+    </div>
+     <div class="row">
+  <div class="col-xs-6 col-md-3">
+    <a href="#" class="thumbnail">
+      <img src="images/open.png" alt="open">
+    </a>
+  </div>
+  <div class="col-xs-6 col-md-3">
+    <a href="#" class="thumbnail">
+      <img src="images/pro4.png" alt="pro">
+    </a>
+  </div>
+  <div class="col-xs-6 col-md-3">
+    <a href="#" class="thumbnail">
+      <img src="images/enterprise4.png" alt="enterprise">
+    </a>
+  </div>
+</div>
+
+
+       <p align="center">价格比较</p>
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th width="25%">特征</th>
+            <th width="25%">OPEN</th>
+            <th width="25%">PRO</th>
+            <th width="25%">ENTERPRISE</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>价格</td>
+            <td>免费</td>
+            <td><p>520元(1个月租用)</p><p>1500元(3个月租用)</p><p>4500元(永久使用)</p></td>
+            <td>15000元</td>
+          </tr>
+        </tbody>
+      </table>
+
+       <p align="center">任务计划| 无人机控制</p>
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th width="25%">特征</th>
+            <th width="25%">OPEN</th>
+            <th width="25%">PRO</th>
+            <th width="25%">ENTERPRISE</th>
+          </tr>
+          <tr>
+            <td>空中测量规划工具</td>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+          </tr>
+          <tr>
+            <td>简单功能</td>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+          </tr>
+          <tr>
+            <td>具有GSD支持的摄影测量规划</td>
+            <td>✘</td>
+            <td>✔</td>
+            <td>✔</td>
+          </tr>
+          <tr>
+            <td>带电池交换的长途飞行</td>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+          </tr>
+
+          <tr>
+            <td>身临其境3D任务规划环境</td>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+          </tr>
+          <tr>
+           <td>高程剖面</td>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+          </tr>
+          <tr>
+          <td>遥测显示</td>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+          </tr>
+          <tr>
+          <td>自动航班模式（航点）</td>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+          </tr>
+
+          <tr>
+          <td>手动模式</td>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+          </tr>
+          <tr>
+            <td>Click-Go功能</td>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+          </tr>
+          <tr>
+            <td>操纵杆和键盘控制</td>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+          </tr>
+          <tr>
+            <td>软件仿真器</td>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+          </tr>
+
+          
+
+
+        </tbody>
+      </table>
+
+
+
+      <p align="center">支持的无人机</p>
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+          <tr>
+            <th width="25%">特征</th>
+            <th width="25%">OPEN</th>
+            <th width="25%">PRO</th>
+            <th width="25%">ENTERPRISE</th>
+          </tr>
+          <tr>
+            <th width="20%">DJI无人机</th>
+            <td width="20%">✔</td>
+            <td width="20%">✔</td>
+            <td width="20%">✔</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Ardupilot (Pixhawk）</td>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+          </tr>
+          <tr>
+            <td>Px4 (Pixhawk) </td>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+          </tr>
+          <tr>
+            <td>InnoFlight </td>
+            <td>Coming soon</td>
+            <td>Coming soon</td>
+            <td>Coming soon</td>
+          </tr>
+          <tr>
+            <td>Mikrokopter</td>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+          </tr>
+
+          <tr>
+            <td>Microdrones </td>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+          </tr>
+          <tr>
+           <td>MicroPilot</td>
+            <td>✘</td>
+            <td>Yes, 实验性的</td>
+            <td>Yes, 实验性的</td>
+          </tr>
+          <tr>
+          <td>Kestrel</td>
+            <td>✘</td>
+            <td>✔</td>
+            <td>✔</td>
+          </tr>
+          <tr>
+          <td>Ar.Drone </td>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+          </tr>
+
+        </tbody>
+      </table>
+
+
+
+
+      <p align="center">飞行后分析和图像处理</p>
+      <table class="table table-bordered">
+        <thead>
+        </thead>
+        <tbody>
+           <tr>
+            <th width="25%">特征</th>
+            <th width="25%">OPEN</th>
+            <th width="25%">PRO</th>
+            <th width="25%">ENTERPRISE</th>
+          </tr>
+          <tr>
+          <tr>
+            <th width="25%">地理标记</th>
+            <td width="25%">✔</td>
+            <td width="25%">✔</td>
+            <td width="25%">✔</td>
+          </tr>
+         <tr>
+            <td>遥测播放器</td>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+          </tr>
+
+        </tbody>
+      </table>
+
+      <p align="center">自定义地图</p>
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th width="25%">特征</th>
+            <th width="25%">OPEN</th>
+            <th width="25%">PRO</th>
+            <th width="25%">ENTERPRISE</th>
+          </tr>
+          <tr>
+            <th width="25%">建筑物导入</th>
+            <td width="25%">20个3D建筑物</td>
+            <td width="25%">无限个3D建筑物 </td>
+            <td width="25%">无限个3D建筑物</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>KML数据导入</td>
+            <td>✘</td>
+            <td>✔</td>
+            <td>✔</td>
+          </tr>
+          <tr>
+            <td>DEM数据导入</td>
+            <td>✘</td>
+            <td>✔</td>
+            <td>✔</td>
+          </tr>
+
+           <tr>
+            <td>地理参考图像导入</td>
+            <td>✘</td>
+            <td>✔</td>
+            <td>✔</td>
+          </tr>
+        </tbody>
+      </table>
+
+
+
+      <p align="center">禁飞区</p>
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th width="25%">特征</th>
+            <th width="25%">OPEN</th>
+            <th width="25%">PRO</th>
+            <th width="25%">ENTERPRISE</th>
+          </tr>
+          <tr>
+          <tr>
+            <th width="25%">禁飞区 - 机场登记</th>
+            <td width="25%">无法禁用</td>
+            <td width="25%">可以禁用</td>
+            <td width="25%">可以禁用</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>禁飞区 - 自定义区域</td>
+            <td>✘</td>
+            <td>✔</td>
+            <td>✔</td>
+          </tr>
+          <tr>
+            <td>飞行区限制路线</td>
+            <td>距离第一点500米，120m高度</td>
+            <td>没有限制</td>
+            <td>没有限制</td>
+          </tr>
+
+
+        </tbody>
+      </table>
+
+
+
+      <p align="center">ADS-B支持</p>
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th width="25%">特征</th>
+            <th width="25%">OPEN</th>
+            <th width="25%">PRO</th>
+            <th width="25%">ENTERPRISE</th>
+          </tr>
+          <tr>
+          <tr>
+            <th width="25%">ADS-B接收机</th>
+            <td width="25%"></td>
+            <td width="25%"></td>
+            <td width="25%"></td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>-microADS-B</td>
+            <td>✘</td>
+            <td>✔</td>
+            <td>✔</td>
+          </tr>
+          <tr>
+            <td>-pingRX</td>
+            <td>✘</td>
+            <td>即将到来</td>
+            <td>即将到来</td>
+          </tr>
+          <tr>
+            <td>ADS-B转发器</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>-Sagetech XP</td>
+            <td>✘</td>
+            <td>✘</td>
+            <td>✔</td>
+          </tr>
+          <tr>
+            <td>ADS-B变送器</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>-Skysense</td>
+            <td>✘</td>
+            <td>✘</td>
+            <td>即将到来</td>
+          </tr>
+
+           
+
+
+
+
+        </tbody>
+      </table>
+
+      <p align="center">视频功能</p>
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th width="25%">特征</th>
+            <th width="25%">OPEN</th>
+            <th width="25%">PRO</th>
+            <th width="25%">ENTERPRISE</th>
+          </tr>
+          <tr>
+          <tr>
+            <th width="25%">视频录制</th>
+            <td width="25%">✘</td>
+            <td width="25%">✔</td>
+            <td width="25%">✔</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>相机足迹</td>
+            <td>✘</td>
+            <td>✔</td>
+            <td>✔</td>
+          </tr>
+          <tr>
+            <td>来自DJI移动伴侣的视频流</td>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+          </tr>
+
+           
+
+
+        </tbody>
+      </table>
+
+      <p align="center">多操作员/多无人机支持</p>
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th width="25%">特征</th>
+            <th width="25%">OPEN</th>
+            <th width="25%">PRO</th>
+            <th width="25%">ENTERPRISE</th>
+          </tr>
+          <tr>
+          <tr>
+            <th width="25%">多节点安装</th>
+            <td width="25%">✘</td>
+            <td width="25%">✔</td>
+            <td width="25%">✔</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>多操作者合作</td>
+            <td>✘</td>
+            <td>✔</td>
+            <td>✔</td>
+          </tr>
+          <tr>
+            <td>与UgCS服务器连接数</td>
+            <td>1</td>
+            <td>3</td>
+            <td>无限制</td>
+          </tr>
+          <tr>
+            <td>多无人机支持</td>
+            <td>没有限制</td>
+            <td>没有限制</td>
+            <td>没有限制</td>
+          </tr>
+
+           
+
+
+
+
+        </tbody>
+      </table>
+
+
+      <p align="center">支持</p>
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th width="25%">特征</th>
+            <th width="25%">OPEN</th>
+            <th width="25%">PRO</th>
+            <th width="25%">ENTERPRISE</th>
+          </tr>
+          <tr>
+          <tr>
+            <th width="25%">公共论坛</th>
+            <td width="25%">✔</td>
+            <td width="25%">✔</td>
+            <td width="25%">✔</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>E-mail支持</td>
+            <td>✘</td>
+            <td>✔</td>
+            <td>✔</td>
+          </tr>
+          <tr>
+            <td>上班时间手机支持</td>
+            <td>✘</td>
+            <td>✔</td>
+            <td>✔</td>
+          </tr>
+          <tr>
+            <td>全天24小时支持</td>
+            <td>✘</td>
+            <td>联系ugcs@uscs.com</td>
+            <td>联系ugcs@uscs.com</td>
+          </tr>
+          <tr>
+            <td>年度支持成本</td>
+            <td>✘</td>
+            <td>100美元</td>
+            <td>400美元</td>
+          </tr>
+
+        </tbody>
+      </table>
+
+
+    </div>
+  </div>
+</div>
+
+    
+    
+   
+
+    
+    
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

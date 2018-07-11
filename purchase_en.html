@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>UAV ground station software UgCS</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <div id="Layer1" style="position:absolute; width:100%; height:100%; z-index:-1">    
+  <img src="images/blue.jpg" height="500%" width="280%"/>   
+  </div>
+  <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index_en.html">UAV ground station software UgCS</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="index_en.html">Home Page <span class="sr-only">(current)</span></a></li>
+        <li class="active"><a href="purchase_en.html">UgCS Purchase Introduction</a></li>
+        <li><a href="sdk_en.html">UgCS SDK</a></li>
+      </ul>
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="connectus_en.html">CONTACT US</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Language <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="purchase_en.html">English</a></li>
+            <li><a href="purchase_cn.html">Chinese</a></li>
+            
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+ <div class="container">
+  <div class="jumbotron">
+  
+    <div class=".container">
+      <div class="page-header">
+      <h1>UgCS Licence types  <small>Features and Pricing Comparison </small></h1>
+    </div>
+     <div class="row">
+  <div class="col-xs-6 col-md-3">
+    <a href="#" class="thumbnail">
+      <img src="images/open.png" alt="open">
+    </a>
+  </div>
+  <div class="col-xs-6 col-md-3">
+    <a href="#" class="thumbnail">
+      <img src="images/one4.png" alt="one">
+    </a>
+  </div>
+  <div class="col-xs-6 col-md-3">
+    <a href="#" class="thumbnail">
+      <img src="images/pro4.png" alt="pro">
+    </a>
+  </div>
+  <div class="col-xs-6 col-md-3">
+    <a href="#" class="thumbnail">
+      <img src="images/enterprise4.png" alt="enterprise">
+    </a>
+  </div>
+</div>
+
+
+       <p align="center">Pricing Comparison </p>
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th width="20%">特征</th>
+            <th width="20%">OPEN</th>
+            <th width="20%">ONE</th>
+            <th width="20%">PRO</th>
+            <th width="20%">ENTERPRISE</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Price </td>
+            <td>FREE</td>
+            <td>65 USD</td>
+            <td>600 USD</td>
+            <td>2000 USD</td>
+          </tr>
+        </tbody>
+      </table>
+
+       <p align="center">Mission planner | Drone control </p>
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th width="20%">特征</th>
+            <th width="20%">OPEN</th>
+            <th width="20%">ONE</th>
+            <th width="20%">PRO</th>
+            <th width="20%">ENTERPRISE</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Aerial survey planning tools</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>-simple</td>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+          </tr>
+          <tr>
+            <td>-photogrammetry planner with GSD support</td>
+            <td>✘</td>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+          </tr>
+          <tr>
+            <td>Flying long routes with battery exchange </td>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+          </tr>
+
+          <tr>
+            <td>Immersive 3D mission planning environment </td>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+          </tr>
+          <tr>
+           <td>Elevation profile </td>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+          </tr>
+          <tr>
+          <td>Telemetry display </td>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+          </tr>
+          <tr>
+          <td>Automatic flight mode (waypoints) </td>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+          </tr>
+
+          <tr>
+          <td>Manual mode </td>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+          </tr>
+          <tr>
+            <td>Click&Go</td>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+          </tr>
+          <tr>
+            <td>Joystick and keyboard control </td>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+          </tr>
+          <tr>
+            <td>Software emulator </td>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+          </tr>
+
+          
+
+
+        </tbody>
+      </table>
+
+
+
+      <p align="center">Supported Drones </p>
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th width="20%">DJI drones </th>
+            <td width="20%">✔</td>
+            <td width="20%">✔</td>
+            <td width="20%">✔</td>
+            <td width="20%">✔</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Ardupilot (Pixhawk）</td>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+          </tr>
+          <tr>
+            <td>Px4 (Pixhawk) </td>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+          </tr>
+          <tr>
+            <td>InnoFlight </td>
+            <td>Coming soon</td>
+            <td>Coming soon</td>
+            <td>Coming soon</td>
+            <td>Coming soon</td>
+          </tr>
+          <tr>
+            <td>Mikrokopter</td>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+          </tr>
+
+          <tr>
+            <td>Microdrones </td>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+          </tr>
+          <tr>
+           <td>MicroPilot</td>
+            <td>✘</td>
+            <td>✘</td>
+            <td>Yes, experimental</td>
+            <td>Yes, experimental</td>
+          </tr>
+          <tr>
+          <td>Kestrel</td>
+            <td>✘</td>
+            <td>✘</td>
+            <td>✔</td>
+            <td>✔</td>
+          </tr>
+          <tr>
+          <td>Ar.Drone </td>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+          </tr>
+
+        </tbody>
+      </table>
+
+
+
+
+      <p align="center">Post-flight analysis and Image processing </p>
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th width="20%">Geotagging</th>
+            <td width="20%">✔</td>
+            <td width="20%">✔</td>
+            <td width="20%">✔</td>
+            <td width="20%">✔</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Telemetry player </td>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+          </tr>
+
+        </tbody>
+      </table>
+
+      <p align="center">Custom maps  </p>
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th width="20%">Buildings import </th>
+            <td width="20%">20 Buildings 3D </td>
+            <td width="20%">100 Buildings 3D </td>
+            <td width="20%">Unlimited Buildings 3D  </td>
+            <td width="20%">Unlimited Buildings 3D</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>KML data import </td>
+            <td>✘</td>
+            <td>✘</td>
+            <td>✔</td>
+            <td>✔</td>
+          </tr>
+          <tr>
+            <td>DEM data import </td>
+            <td>✘</td>
+            <td>✘</td>
+            <td>✔</td>
+            <td>✔</td>
+          </tr>
+
+           <tr>
+            <td>Geo-referenced images import</td>
+            <td>✘</td>
+            <td>✘</td>
+            <td>✔</td>
+            <td>✔</td>
+          </tr>
+
+
+
+          <p align="center">No-Fly zones </p>
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th width="20%">No-Fly zones - airport registry </th>
+            <td width="20%">Can't be disabled</td>
+            <td width="20%">Can't be disabled</td>
+            <td width="20%">Can't be disabled</td>
+            <td width="20%">Can't be disabled</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>No-Fly zones - custom zones</td>
+            <td>✘</td>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+          </tr>
+          <tr>
+            <td>Fly zone limits for routes </td>
+            <td>500m from first point, 120m AGL </td>
+            <td>No Limits</td>
+            <td>No Limits</td>
+            <td>No Limits</td>
+          </tr>
+
+           
+
+
+
+
+        </tbody>
+      </table>
+
+
+
+      <p align="center">ADS-B Support </p>
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th width="20%">ADS-B Receiver</th>
+            <td width="20%"></td>
+            <td width="20%"></td>
+            <td width="20%"></td>
+            <td width="20%"></td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>-microADS-B</td>
+            <td>✘</td>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+          </tr>
+          <tr>
+            <td>-pingRX</td>
+            <td>✘</td>
+            <td>Coming soon</td>
+            <td>Coming soon</td>
+            <td>Coming soon</td>
+          </tr>
+          <tr>
+            <td>ADS-B Transponder</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>-Sagetech XP</td>
+            <td>✘</td>
+            <td>✘</td>
+            <td>✘</td>
+            <td>✔</td>
+          </tr>
+          <tr>
+            <td>ADS-B Transmitter</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>-Skysense</td>
+            <td>✘</td>
+            <td>✘</td>
+            <td>✘</td>
+            <td>Coming soon</td>
+          </tr>
+
+           
+
+
+
+
+        </tbody>
+      </table>
+
+      <p align="center">Video features</p>
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th width="20%">Video recording </th>
+            <td width="20%">✘</td>
+            <td width="20%">✔</td>
+            <td width="20%">✔</td>
+            <td width="20%">✔</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Camera footprint </td>
+            <td>✘</td>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+          </tr>
+          <tr>
+            <td>Video streaming from DJI mobile companion</td>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+          </tr>
+
+           
+
+
+
+
+        </tbody>
+      </table>
+
+      <p align="center">Multi-operator / Multi-drone support </p>
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th width="20%">Multinode installation</th>
+            <td width="20%">✘</td>
+            <td width="20%">✘</td>
+            <td width="20%">✔</td>
+            <td width="20%">✔</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Multi-operators</td>
+            <td>✘</td>
+            <td>✘</td>
+            <td>3</td>
+            <td>✔</td>
+          </tr>
+          <tr>
+            <td>Multi-drone support</td>
+            <td>Unlimited</td>
+            <td>Unlimited</td>
+            <td>Unlimited</td>
+            <td>Unlimited</td>
+          </tr>
+
+           
+
+
+
+
+        </tbody>
+      </table>
+
+
+      <p align="center">Support </p>
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th width="20%">Public forum </th>
+            <td width="20%">✔</td>
+            <td width="20%">✔</td>
+            <td width="20%">✔</td>
+            <td width="20%">✔</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>E-mail support</td>
+            <td>✘</td>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+          </tr>
+          <tr>
+            <td>Phone support 5x8</td>
+            <td>✘</td>
+            <td>✘</td>
+            <td>✔</td>
+            <td>✔</td>
+          </tr>
+          <tr>
+            <td>Support 24x7 </td>
+            <td>✘</td>
+            <td>✘</td>
+            <td>✘</td>
+            <td>Contact
+ugcs@ugcs.com</td>
+          </tr>
+          <tr>
+            <td>Annual Support Cost </td>
+            <td>✘</td>
+            <td>35 USD*</td>
+            <td>100 USD*</td>
+            <td>400 USD*</td>
+          </tr>
+
+           
+
+
+
+
+        </tbody>
+      </table>
+
+
+    </div>
+  </div>
+</div>
+
+    
+    
+   
+
+    
+    
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
